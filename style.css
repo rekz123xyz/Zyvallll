@@ -1,0 +1,177 @@
+body {
+  background: #044a91;
+  color: black;
+  font-family: 'Times New Roman';
+  margin: 0;
+}
+
+.product {
+  background: blue;
+  color: black;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* NAVBAR */
+nav {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#item {
+  display: none;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 80px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+.store {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* CARD (PROFILE) */
+.card {
+  background: #0ea5e9;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 100px auto;
+  width: 300px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+/* FOTO */
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* BUTTON */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+h2 {
+  color: rgb(16, 19, 212);
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+  transition: 0.2s; 
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.tab-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #1e293b;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #38bdf8;
+  color: black;
+}
+
+/* TOMBOL MASUK STORE */
+.enter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* STORE GRID */
+.store {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.product {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+/* INPUT & LIST */
+input {
+  padding: 8px;
+  margin-top: 10px;
+}
+
+li {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* MODE BIRU (kalau masih dipakai) */
+.blue {
+  background: blue;
+  color: black;
+}
